@@ -1,0 +1,11 @@
+serverAddr = "x.x.x.x"
+serverPort = 7000
+
+[[visitors]]
+name = "secret_http_visitor"
+type = "stcp"
+serverName = "secret_http"
+secretKey = "abcdefg"
+bindAddr = "127.0.0.1"
+bindPort = 8080
+
