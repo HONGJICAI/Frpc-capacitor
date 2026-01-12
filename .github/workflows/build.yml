@@ -13,6 +13,9 @@ on:
 env:
   FRP_VERSION: "0.66.0"
 
+permissions:
+  contents: read
+
 jobs:
   build:
     runs-on: ubuntu-latest
